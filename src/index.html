@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MBCS皮肤材质包生成器</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>MBCS皮肤材质包生成器</h1>
+        <p>Made by Minecraft Byte Cube Studio</p>
+    </header>
+    <section>
+        <div>
+            <p>请选择皮肤图片</p>
+            <ul>
+                <li><button id='mc-skin'>点击选择文件</button></li>
+                <li><p id='skin-path'>请选择文件</p></li>
+            </ul>
+        </div>
+        <div>
+            <p>请选择材质包生成文件夹</p>
+            <ul>
+                <li><button id='mc-file'>点击选择文件夹</button></li>
+                <li><p id='mc-path'>请选择文件夹</p></li>
+            </ul>
+        </div>
+        <div>
+            <p>请选择minecraft版本</p>
+            <select id="mc-version">
+                <option value="1">Java版1.6至Java版1.8</option>
+                <option value="2">Java版1.9至Java版1.10</option>
+                <option value="3">Java版1.11至Java版1.12</option>
+                <option value="4">Java版1.13至Java版1.14</option>
+                <option value="5">Java版1.15</option>
+            </select>
+        </div>
+        <div>
+            <p>请选择材质包图标（默认为Steve）</p>
+            <ul>
+                <li><button id="res-logo">点击选择文件</button></li>
+                <li><p id='logo-path'>请选择文件</p></li>
+            </ul>
+        </div>
+        <div>
+            <p>请输入材质包名称（默认为MBCS皮肤材质包）</p>
+            <input id="res-name">
+        </div>
+    </section>
+    <footer>
+        <div>
+            <button id="make-res">点击生成材质包</button>
+        <div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "mbcs-skin-resourcepacks-maker",
+  "version": "1.0.0",
+  "description": "It is a program that can make Minecraft's resourcepacks with a player's skin",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "minecraft",
+    "skin",
+    "mbcs",
+    "resourcepacks",
+    "maker"
+  ],
+  "author": "Minecraft Byte Cube Studio",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^8.1.1"
+  }
+}
