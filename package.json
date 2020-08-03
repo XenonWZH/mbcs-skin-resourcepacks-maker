@@ -3,8 +3,23 @@
   "version": "1.0.0",
   "description": "It is a program that can make Minecraft's resourcepacks with a player's skin",
   "main": "src/main.js",
+  "build": {
+    "productName": "mbcs-skin-resourcepacks-maker",
+    "appId": "com.mbcs-skin-resourcepacks-maker.app",
+    "win": {
+      "icon": "image/icon.ico",
+      "target": [
+        "zip"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WzhDnwzWzh/mbcs-skin-resourcepacks-maker"
+  },
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist": "electron-builder --win"
   },
   "keywords": [
     "minecraft",
@@ -15,7 +30,7 @@
   ],
   "author": "Minecraft Byte Cube Studio",
   "license": "MIT",
-  "dependencies": {
-    "electron": "^9.1.2"
+  "devDependencies": {
+    "electron": "^6.0.0"
   }
 }
