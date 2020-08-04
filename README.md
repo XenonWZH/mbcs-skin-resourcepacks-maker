@@ -1,8 +1,9 @@
 # MBCS 皮肤材质包生成器
 
-![banner](image/mbcs.png)
+![banner](https://s1.ax1x.com/2020/08/03/aU9FeS.png)
 
 这是一个可以生成 Minecraft 皮肤材质包的程序
+MCBBS网址：[网址链接](https://www.mcbbs.net/thread-1092659-1-1.html)
 
 ## Table of Contents
 
