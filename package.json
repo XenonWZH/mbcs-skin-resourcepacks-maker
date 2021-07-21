@@ -31,6 +31,6 @@
   "author": "Minecraft Byte Cube Studio",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^7.2.4"
+    "electron": "^9.4.0"
   }
 }
