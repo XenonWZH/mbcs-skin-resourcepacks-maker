@@ -30,9 +30,9 @@ npm run
 
 ## Maintainers
 
-[@WzhDnwzWzh](https://github.com/WzhDnwzWzh)
+[@XenonWZH](https://github.com/XenonWZH)
 Minecraft Byte Cube Studio 工作室
 
 ## License
 
-MIT © 2020 Minecraft Byte Cube Studio
+MIT © 2022 Minecraft Byte Cube Studio
