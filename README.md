@@ -4,8 +4,6 @@
 
 这是一个可以生成 Minecraft 皮肤材质包的程序
 
-MCBBS网址：[网址链接](https://www.mcbbs.net/thread-1092659-1-1.html)
-
 ## Table of Contents
 
 - [Install](#install)
@@ -16,7 +14,7 @@ MCBBS网址：[网址链接](https://www.mcbbs.net/thread-1092659-1-1.html)
 ## Install
 
 ```
-直接在releases或mcbbs下载即可使用
+直接在releases下载即可使用
 ```
 
 ## Usage
